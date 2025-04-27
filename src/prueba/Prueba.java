@@ -18,10 +18,10 @@ public class Prueba {
     //    dbConnection dbc=new dbConnection ();
     //    dbc.conectar();
     crud operaciones=new crud();
-    //operaciones.insertarDato(7,"Paola","mivida");
+    operaciones.insertarDato(7,"Paola","mivida");
     operaciones.leerDatos();
-   // operaciones.actualizacionDato(6,"Limon","nose777");
-    //operaciones.eliminarDato(7);
+    operaciones.actualizacionDato(6,"Limon","nose777");
+    operaciones.eliminarDato(7);
     }
     
 }
